@@ -9,6 +9,6 @@ spec:
   containers:
   - name: nginx
     image: nginx
-  - name: almainux
+  - name: almalinux
     image: almalinux:9
     command: ["sleep", "1000"] # it ensures always container is running infinite times for nginx not required it has default 
